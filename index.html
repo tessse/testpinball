@@ -428,7 +428,7 @@
 		document.querySelector('#btnStart').addEventListener('click', () => {
 			if (!ready) return;
 			gtag && gtag('event', 'start', {
-				'event_category': 'roulette',
+				'event_category': 'testpinball',
 				'event_label': 'start',
 				'value': window.roullete.getCount(),
 			});
@@ -466,7 +466,7 @@
 		document.querySelector('#btnShake').addEventListener('click', () => {
 			window.roullete.shake();
 			gtag('event', 'shake', {
-				'event_category': 'roulette',
+				'event_category': 'testpinball',
 				'event_label': 'shake',
 				'value': 1,
 			});
