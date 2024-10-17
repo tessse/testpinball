@@ -1,0 +1,22 @@
+{
+  "name": "roulette",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.11.0",
+    "@parcel/transformer-sass": "^2.11.0",
+    "@parcel/transformer-webmanifest": "^2.11.0",
+    "parcel": "^2.11.0",
+    "path-browserify": "^1.0.0",
+    "process": "^0.11.10",
+    "tsup": "^6.2.3",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /roulette/"
+  },
+  "dependencies": {
+    "box2d-wasm": "^7.0.0"
+  }
+}
